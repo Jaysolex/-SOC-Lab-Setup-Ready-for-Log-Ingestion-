@@ -19,8 +19,19 @@ Welcome to my **30-Day SOC Challenge** 🚀 — a hands-on journey where I pract
 ✅ Added banner + README  
 ✅ Set up `screenshots/` folder for daily uploads  
 
-🚀 Lab Setup: ![Day 0](screenshots/day01.png) | ![Architecture](https://github.com/Jaysolex/30-Day-SOC-Challenge/blob/main/screenshots/Lab%20Architech.png) | ![Vultr – Ubuntu + VPC 2.0](https://github.com/Jaysolex/30-Day-SOC-Challenge/blob/main/screenshots/Vultr%20cloud%20running%20OS%20and%20VPC.png)  
-*Vultr cloud instance running Ubuntu OS with VPC 2.0 network enabled*
+🚀 ## Lab Setup
+
+![Day 0](screenshots/day01.png)  
+*Day 1 SOC lab initial setup on local environment*
+
+![Architecture](https://github.com/Jaysolex/30-Day-SOC-Challenge/blob/main/screenshots/Lab%20Architech.png)  
+*Overall SOC Lab Architecture*
+
+![Vultr – Ubuntu + VPC 2.0](https://github.com/Jaysolex/30-Day-SOC-Challenge/blob/main/screenshots/Vultr%20cloud%20running%20OS%20and%20VPC.png)  
+*Vultr cloud instance running Ubuntu OS with VPC 2.0 networking*
+
+![Elasticsearch & Kibana via SSH](https://github.com/Jaysolex/30-Day-SOC-Challenge/blob/main/screenshots/Elastic%20search%20and%20Kibana%20running%20via%20SSH%20from%20mac%20terminal%20into%20ubuntu%20on%20Vultr.png)  
+*Accessing Elasticsearch and Kibana on the Vultr Ubuntu instance via SSH from a Mac terminal*
 
 
 ---

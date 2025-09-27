@@ -14,7 +14,7 @@ Welcome to my **30-Day SOC Challenge** 🚀 — a hands-on journey where I pract
 
 ## 📅 Daily Progress  
 
-### 🔹 Day 0 — Setup  
+### 🔹 Day 0 — 1 Setup  
 ✅ Created repo & structure  
 ✅ Added banner + README  
 ✅ Set up `screenshots/` folder for daily uploads  
@@ -32,6 +32,10 @@ Welcome to my **30-Day SOC Challenge** 🚀 — a hands-on journey where I pract
 
 ![Elasticsearch & Kibana via SSH](https://github.com/Jaysolex/30-Day-SOC-Challenge/blob/main/screenshots/Elastic%20search%20and%20Kibana%20running%20via%20SSH%20from%20mac%20terminal%20into%20ubuntu%20on%20Vultr.png)  
 *Accessing Elasticsearch and Kibana on the Vultr Ubuntu instance via SSH from a Mac terminal*
+
+
+![Elastic Dashboard](https://github.com/Jaysolex/30-Day-SOC-Challenge/raw/main/screenshots/Elastic%20dashboard.png)  
+*Elastic Dashboard showing collected logs, visualizations, and detections*
 
 ```bash
 # Connect to Vultr Ubuntu server from Mac terminal

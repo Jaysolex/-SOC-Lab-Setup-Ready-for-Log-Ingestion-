@@ -19,7 +19,9 @@ Welcome to my **30-Day SOC Challenge** 🚀 — a hands-on journey where I pract
 ✅ Added banner + README  
 ✅ Set up `screenshots/` folder for daily uploads  
 
-🚀 Lab Setup: ![Day 0](screenshots/day01.png) | ![Architecture](https://github.com/Jaysolex/30-Day-SOC-Challenge/blob/main/screenshots/Lab%20Architech.png)
+🚀 Lab Setup: ![Day 0](screenshots/day01.png) | ![Architecture](https://github.com/Jaysolex/30-Day-SOC-Challenge/blob/main/screenshots/Lab%20Architech.png) | ![Vultr – Ubuntu + VPC 2.0](https://github.com/Jaysolex/30-Day-SOC-Challenge/blob/main/screenshots/Vultr%20cloud%20running%20OS%20and%20VPC.png)  
+*Vultr cloud instance running Ubuntu OS with VPC 2.0 network enabled*
+
 
 ---
 

@@ -33,6 +33,26 @@ Welcome to my **30-Day SOC Challenge** 🚀 — a hands-on journey where I pract
 ![Elasticsearch & Kibana via SSH](https://github.com/Jaysolex/30-Day-SOC-Challenge/blob/main/screenshots/Elastic%20search%20and%20Kibana%20running%20via%20SSH%20from%20mac%20terminal%20into%20ubuntu%20on%20Vultr.png)  
 *Accessing Elasticsearch and Kibana on the Vultr Ubuntu instance via SSH from a Mac terminal*
 
+```bash
+# Connect to Vultr Ubuntu server from Mac terminal
+ssh root@<VULTR_SERVER_IP>
+
+# Update and upgrade system
+sudo apt update && sudo apt upgrade -y
+
+# Start Elasticsearch
+sudo systemctl start elasticsearch
+sudo systemctl enable elasticsearch
+
+# Start Kibana
+sudo systemctl start kibana
+sudo systemctl enable kibana
+
+# Verify Elasticsearch
+curl -X GET "localhost:9200/"
+
+# Verify Kibana
+curl -X GET "localhost:5601/"
 
 ---
 

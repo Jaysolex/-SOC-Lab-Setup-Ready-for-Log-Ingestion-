@@ -1,34 +1,43 @@
 
-30-Day SOC Challenge — daily hands-on log analysis, threat hunting, and detections and SOC tools set up
+ 🛡️ 🛡️ Simple SOC Lab Setup – Ready for Log Ingestion
 
+This project documents the initial setup of a basic Security Operations Center (SOC) lab focused on centralized log ingestion, analysis, and visualization using the Elastic Stack.
 
-# 🛡️ 30-Day SOC Challenge  
+![Initial Step](screenshots/day01.png)  
+*Day 1 Initial SOC Lab Setup:   This stage establishes the foundational infrastructure required to begin collecting and analyzing security logs.*
+🧱 SOC Lab Architecture
 
-Welcome to my **30-Day SOC Challenge** 🚀 — a hands-on journey where I practice, document, and showcase daily SOC (Security Operations Center) skills.  
+The SOC lab architecture includes:
 
-📌 **Goal:** Strengthen SOC Analyst skills through daily labs, detections, and investigations.  
-📌 **Tools Used:** Wazuh, Zeek, Suricata, Wireshark, Sigma, Sysmon, Splunk, Microsoft Sentinel, ELK and others  
-📌 **Focus Areas:** Threat detection, incident response, log analysis, and threat hunting.  
+Cloud-hosted Ubuntu server
 
----
+Elasticsearch for log ingestion and indexing
 
-## 📅 Daily Progress  
+Kibana for visualization and analysis
 
-### 🔹 Day 0 — 1 Setup  
-✅ Created repo & structure  
-✅ Added banner + README  
-✅ Set up `screenshots/` folder for daily uploads  
+Secure SSH access from a local macOS system
 
-🚀 ## Lab Setup
-
-![Day 0](screenshots/day01.png)  
-*Day 1 SOC lab initial setup on local environment*
+VPC networking for isolation and scalability
 
 ![Architecture](https://github.com/Jaysolex/30-Day-SOC-Challenge/blob/main/screenshots/Lab%20Architech.png)  
 *Overall SOC Lab Architecture*
 
 ![Vultr – Ubuntu + VPC 2.0](https://github.com/Jaysolex/30-Day-SOC-Challenge/blob/main/screenshots/Vultr%20cloud%20running%20OS%20and%20VPC.png)  
+
 *Vultr cloud instance running Ubuntu OS with VPC 2.0 networking*
+
+
+☁️ Cloud Infrastructure (Vultr)
+
+Ubuntu Server deployed on Vultr
+
+VPC 2.0 enabled for private networking
+
+Instance serves as the central SOC log ingestion and analysis node
+
+🔐 Elastic Stack Access via SSH
+
+Elasticsearch and Kibana are installed and managed directly on the Ubuntu server using SSH access from a macOS terminal.
 
 ![Elasticsearch & Kibana via SSH](https://github.com/Jaysolex/30-Day-SOC-Challenge/blob/main/screenshots/Elastic%20search%20and%20Kibana%20running%20via%20SSH%20from%20mac%20terminal%20into%20ubuntu%20on%20Vultr.png)  
 *Accessing Elasticsearch and Kibana on the Vultr Ubuntu instance via SSH from a Mac terminal*
@@ -36,6 +45,15 @@ Welcome to my **30-Day SOC Challenge** 🚀 — a hands-on journey where I pract
 
 ![Elastic Dashboard](https://github.com/Jaysolex/30-Day-SOC-Challenge/raw/main/screenshots/Elastic%20dashboard.png)  
 *Elastic Dashboard showing collected logs, visualizations, and detections*
+
+The Kibana dashboard confirms:
+
+Successful Elasticsearch indexing
+
+Kibana service availability
+
+Readiness for log ingestion, dashboards, and detections
+
 
 ```bash
 # Connect to Vultr Ubuntu server from Mac terminal
@@ -59,31 +77,3 @@ curl -X GET "localhost:9200/"
 curl -X GET "localhost:5601/"
 
 ---
-
-### 🔹 Day 1  
-🚀 Kicked off the challenge — baseline monitoring in Wazuh & initial log collection.  
-![Day 1 Screenshot](screenshots/day01.png)  
-
----
-
-### 🔹 Day 2  
-🔍 Practiced log collection + detection basics. Every alert tells a story.  
-![Day 2 Screenshot](screenshots/day02.png)  
-
----
-
-### 🔹 Day 3  
-💻 Diving into SIEM alerts and event correlation.  
-![Day 3 Screenshot](screenshots/day03.png)  
-
----
-
-⬇️ *This structure continues until Day 30…*  
-
----
-
-## 🎯 Final Thoughts (to update after Day 30)  
-30 days of SOC, threat hunting, and cyber defense complete.  
-This repo serves as proof of continuous hands-on learning, detection building, and cyber resilience practice.  
-
-👉 Follow my journey: [GitHub Profile](https://github.com/Jaysolex)  

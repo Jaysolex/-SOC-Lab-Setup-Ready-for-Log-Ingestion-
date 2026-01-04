@@ -55,25 +55,27 @@ Kibana service availability
 Readiness for log ingestion, dashboards, and detections
 
 
+⚙️ Server Setup and Service Verification
+
 ```bash
+
 # Connect to Vultr Ubuntu server from Mac terminal
 ssh root@<VULTR_SERVER_IP>
 
-# Update and upgrade system
+# Update and upgrade system packages
 sudo apt update && sudo apt upgrade -y
 
-# Start Elasticsearch
+# Start and enable Elasticsearch
 sudo systemctl start elasticsearch
 sudo systemctl enable elasticsearch
 
-# Start Kibana
+# Start and enable Kibana
 sudo systemctl start kibana
 sudo systemctl enable kibana
 
-# Verify Elasticsearch
+# Verify Elasticsearch is running
 curl -X GET "localhost:9200/"
 
-# Verify Kibana
+# Verify Kibana is running
 curl -X GET "localhost:5601/"
 
----
